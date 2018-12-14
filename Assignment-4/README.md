@@ -23,5 +23,6 @@ Objects of *Items* Class store details of records fetched from database.
 
 A part of output is shown in below image.
 
-![image](https://user-images.githubusercontent.com/23214916/50024478-9c16f780-0008-11e9-93ed-e52be6b6d846.png)
+![image](https://user-images.githubusercontent.com/23214916/50024869-c4532600-0009-11e9-8efd-b4b917fe869d.png)
+
 
