@@ -15,6 +15,6 @@ Command Line Input must be of format:
 ```
 
 ## Results
-A part of Output is shown in below screenshot.
+A part of output is shown in below screenshot.
 
 ![image](https://user-images.githubusercontent.com/23214916/50033597-28ccb000-001f-11e9-8ea1-e178715260cc.png)
