@@ -90,7 +90,7 @@ public class ItemsTest {
 			 */
 			if(i == 0 && !Objects.equals(args[i], "-name"))
 			{
-				throw new IllegalArgumentException("First Argument must be -name. Item must be in format: -name <name> -price <price> -quantity <qty> -type <raw/imported/manufactured>");
+				throw new IllegalArgumentException("First Argument must be -name. Item must be in format: -name <name> -price <price> -quantity <qty> -type <raw/imported/manufactured>\n");
 			}
 			
 			if(Objects.equals(args[i], "-name"))
@@ -108,7 +108,7 @@ public class ItemsTest {
 				}
 				catch (NumberFormatException e)
 				{
-					throw new NumberFormatException("Error in field -price. Price  must be of type float/int.");
+					throw new NumberFormatException("Error in field -price. Price  must be of type float/int.\n");
 				}
 			}
 			else if(Objects.equals(args[i], "-quantity"))
@@ -118,7 +118,7 @@ public class ItemsTest {
 				}
 				catch (NumberFormatException e)
 				{
-					throw new NumberFormatException("Error in field -quantity. Quantity must be of type int.");
+					throw new NumberFormatException("Error in field -quantity. Quantity must be of type int.\n");
 				}
 			}	
 		}
@@ -129,7 +129,7 @@ public class ItemsTest {
 		 */
 		if(Objects.equals(type, "none") || !(Objects.equals(type, "raw") || Objects.equals(type,"manufactured") || Objects.equals(type, "imported")) )
 		{
-			throw new IllegalArgumentException("Error in field -type. Must be of type -type raw/manufactured/imported. " + type);
+			throw new IllegalArgumentException("Error in field -type. Must be of type -type raw/manufactured/imported. :" + type + "\n");
 		}
 		
 		
@@ -138,7 +138,7 @@ public class ItemsTest {
 		 */
 		if(price == 0)
 		{
-			throw new IllegalArgumentException("Error in field -price. Must be of type -price price-of-item");
+			throw new IllegalArgumentException("Error in field -price. Must be of type -price price-of-item. \n");
 		}
 		
 		
