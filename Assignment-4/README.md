@@ -1,7 +1,7 @@
 # Java Multithreading
+Developing a multi-threaded java program where one thread reads the data from the database say, details of an Item from a mysql table while another thread fetches already created Item objects and perform certain operations on them.
 
 ## Database
-
 We have created our database using **MySQL**. Our database contains detail records of items. Each record has four fields namely **Name**, **Price**, **Quantity** and **Type**. The Structure of our table is show below.
 
 ![image](https://user-images.githubusercontent.com/23214916/50022650-e5fcdf00-0002-11e9-8b9b-19cd8f60f5e1.png)
