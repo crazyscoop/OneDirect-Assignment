@@ -34,7 +34,7 @@ public class Item {
 	}
 	
 	//To calculate the final Price after including the taxes
-	public void calcPrice() 
+	public void calcTax() 
 	{
 		if(Objects.equals(type, "raw"))
 		{
@@ -73,7 +73,7 @@ public class Item {
 		System.out.println("\n****Item Details*****");
 		System.out.println("name " + name);
 		System.out.println("price per unit item " + price);
-		calcPrice();
+		calcTax();
 		System.out.println("sales tax liability per item " + tax);
 		double finalPrice = price + tax;
 		System.out.println("final price unit item " + (finalPrice));
