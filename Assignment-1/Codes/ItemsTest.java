@@ -37,22 +37,25 @@ public class ItemsTest {
 				System.out.println(e);
 			}
 			
-			// Pushing Item into the list.
-			itemList.add(tempItem);			
+			if(tempItem != null)
+			{
+			    // Pushing Item into the list.
+			    itemList.add(tempItem);			
 			
-			// Printing Final Item details.
-			tempItem.printItem();			
+			    // Printing Final Item details.
+			    tempItem.printItem();			
 			
-			System.out.println("Do you want to add new item ? (yes/no)");
+			    System.out.println("Do you want to add new item ? (yes/no)");
 			
-			truth = in.nextLine();
+			    truth = in.nextLine();
 			
-			truth = truth.toLowerCase();
+			    truth = truth.toLowerCase();
+			}
 			
 			// Checking if user need to insert new item.
-			if(Objects.equals(truth, "yes") || Objects.equals(truth, "y"))
+			if(Objects.equals(truth, "yes") || Objects.equals(truth, "y") || tempItem == null)
 			{
-				System.out.println("Item must be in format... -name <name> -price <price> -quantity <qty> -type <raw/imported/manufactured>");
+				System.out.println("Item must be in format: -name <name> -price <price> -quantity <qty> -type <raw/imported/manufactured>");
 				args = in.nextLine().split(" ");
 			}
 			
@@ -71,6 +74,13 @@ public class ItemsTest {
 		double price = 0.0;
 		int qty = 1;
 		
+		if(args.length == 0)
+		{
+			System.out.println("Error: Incorrect Input Format");
+			return null;
+		}
+		
+		
 		for(int i = 0;i < args.length;i+=2)
 		{
 			
@@ -80,7 +90,7 @@ public class ItemsTest {
 			 */
 			if(i == 0 && !Objects.equals(args[i], "-name"))
 			{
-				throw new IllegalArgumentException("First Argument must be -name. Item must be in format... -name <name> -price <price> -quantity <qty> -type <raw/imported/manufactured>");
+				throw new IllegalArgumentException("First Argument must be -name. Item must be in format: -name <name> -price <price> -quantity <qty> -type <raw/imported/manufactured>");
 			}
 			
 			if(Objects.equals(args[i], "-name"))
