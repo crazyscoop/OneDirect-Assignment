@@ -19,9 +19,9 @@ Execute *Test.java*, it uses objects of two other classes
 Objects of *Items* Class store details of records fetched from database. 
 *ItemManager* contains the fetchData and calculateTax methods which are executed synchronously by threads.  
 
-## Result
+## Results
 
-A part of output is shown in below image.
+A part of output is shown in below screenshot.
 
 ![image](https://user-images.githubusercontent.com/23214916/50024869-c4532600-0009-11e9-8efd-b4b917fe869d.png)
 
