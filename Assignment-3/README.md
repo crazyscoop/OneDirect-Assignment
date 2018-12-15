@@ -85,5 +85,21 @@ We will test our code on the below shown dependency graph.
 ```
 #### Output
 
+![image](https://user-images.githubusercontent.com/23214916/50043431-104dab80-009a-11e9-8be4-79e22667d86b.png)
+
+
+### Deleting Dependency 
+
+```java
+		// Deleting Dependency from nodeA to nodeB.
+		graph.deleteDependency(nodeA, nodeB);
+
+		
+		// Checking if dependency is removed.
+		graph.getDescendants(nodeA);
+		graph.getAncestors(nodeB);
+```
+
+#### Output
 
 
