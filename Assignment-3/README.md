@@ -48,11 +48,13 @@ We will test our code on the below shown dependency graph.
 ![image](https://user-images.githubusercontent.com/23214916/50043333-15a9f680-0098-11e9-85fc-dfd58562ed8c.png)
 
 
-
 ### Printing Parent Nodes
 
 ```java
 		graph.getParents(nodeE);
 ```
+#### Output
+
+
 
 
