@@ -55,6 +55,16 @@ We will test our code on the below shown dependency graph.
 ```
 #### Output
 
+![image](https://user-images.githubusercontent.com/23214916/50043378-ee9ff480-0098-11e9-85a7-79f833f21768.png)
+
+
+### Printing Children Nodes
+
+```java
+		graph.getChildren(nodeB);
+```
+#### Output
+
 
 
 
