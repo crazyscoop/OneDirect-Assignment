@@ -34,3 +34,9 @@ We will test our code on the below shown dependency graph.
 		graph.addDependency(nodeC, nodeE);
 		graph.addDependency(nodeC, nodeD);
 ```
+
+#### Printing Nodes
+
+```java
+		graph.print();
+```
