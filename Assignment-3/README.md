@@ -119,3 +119,16 @@ We will test our code on the below shown dependency graph.
 
 #### Output
 
+![image](https://user-images.githubusercontent.com/23214916/50043484-efd22100-009a-11e9-8b69-a8365d932345.png)
+
+
+### Test Cyclic Condition
+
+```java
+		// Adding dependency from nodeD->nodeB to test cyclic condition.
+		graph.addDependency(nodeD, nodeB);
+```
+
+#### Output
+
+
