@@ -10,8 +10,9 @@ Execute Test.java, it uses objects of two other classes
 Objects of Node class store node information provided by the user. Object of Graph class stores information regarding the dependency graph provided by the user.
 
 ## Results
-We will test our code with the below shown dependency graph.
+We will test our code on the below shown dependency graph.
 
+![image](https://user-images.githubusercontent.com/23214916/50043239-ada6e080-0096-11e9-897a-e8803d1cc246.png)
 
 
 
