@@ -24,7 +24,7 @@ We will test our code on the below shown dependency graph.
     		Node nodeD = new Node("D","Node D");
     		Node nodeE = new Node("E","Node E");
 ```
-------
+<br><br>
 
 ### Adding Dependencies
 
@@ -36,7 +36,7 @@ We will test our code on the below shown dependency graph.
 		graph.addDependency(nodeC, nodeE);
 		graph.addDependency(nodeC, nodeD);
 ```
-------
+<br><br>
 
 ### Printing Nodes
 
@@ -46,7 +46,7 @@ We will test our code on the below shown dependency graph.
 #### Output
 
 ![image](https://user-images.githubusercontent.com/23214916/50043333-15a9f680-0098-11e9-85fc-dfd58562ed8c.png)
-------
+<br><br>
 
 ### Printing Parent Nodes
 
@@ -56,7 +56,7 @@ We will test our code on the below shown dependency graph.
 #### Output
 
 ![image](https://user-images.githubusercontent.com/23214916/50043378-ee9ff480-0098-11e9-85a7-79f833f21768.png)
-------
+<br><br>
 
 ### Printing Children Nodes
 
@@ -66,7 +66,7 @@ We will test our code on the below shown dependency graph.
 #### Output
 
 ![image](https://user-images.githubusercontent.com/23214916/50043392-522a2200-0099-11e9-91eb-3ac7d9669f8d.png)
-------
+<br><br>
 
 ### Printing Ancestor Nodes
 
@@ -76,7 +76,7 @@ We will test our code on the below shown dependency graph.
 #### Output
 
 ![image](https://user-images.githubusercontent.com/23214916/50043415-b2b95f00-0099-11e9-9a13-d08024bb3c71.png)
-------
+<br><br>
 
 ### Printing Descendant Nodes
 
@@ -86,7 +86,7 @@ We will test our code on the below shown dependency graph.
 #### Output
 
 ![image](https://user-images.githubusercontent.com/23214916/50043431-104dab80-009a-11e9-8be4-79e22667d86b.png)
-------
+<br><br>
 
 ### Deleting Dependency 
 
@@ -103,7 +103,7 @@ We will test our code on the below shown dependency graph.
 #### Output
 
 ![image](https://user-images.githubusercontent.com/23214916/50043457-7b977d80-009a-11e9-9a46-7f770baccb32.png)
-------
+<br><br>
 
 ### Deleting Node
 
@@ -120,7 +120,7 @@ We will test our code on the below shown dependency graph.
 #### Output
 
 ![image](https://user-images.githubusercontent.com/23214916/50043484-efd22100-009a-11e9-8b69-a8365d932345.png)
-------
+<br><br>
 
 ### Test Cyclic Condition
 
@@ -132,4 +132,4 @@ We will test our code on the below shown dependency graph.
 #### Output
 
 ![image](https://user-images.githubusercontent.com/23214916/50043498-3e7fbb00-009b-11e9-970b-bcb2ff2c6672.png)
-------
+<br><br>
