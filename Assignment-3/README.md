@@ -23,3 +23,14 @@ We will test our code on the below shown dependency graph.
     Node nodeD = new Node("D","Node D");
     Node nodeE = new Node("E","Node E");
 ```
+
+### Adding Dependencies
+
+```java
+		graph.addDependency(nodeA, nodeB);
+		graph.addDependency(nodeA, nodeD);
+		graph.addDependency(nodeB, nodeC);
+		graph.addDependency(nodeB, nodeE);
+		graph.addDependency(nodeC, nodeE);
+		graph.addDependency(nodeC, nodeD);
+```
