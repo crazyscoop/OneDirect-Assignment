@@ -75,6 +75,15 @@ We will test our code on the below shown dependency graph.
 ```
 #### Output
 
+![image](https://user-images.githubusercontent.com/23214916/50043415-b2b95f00-0099-11e9-9a13-d08024bb3c71.png)
+
+
+### Printing Descendant Nodes
+
+```java
+		graph.getDescendants(nodeA);
+```
+#### Output
 
 
 
