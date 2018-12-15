@@ -65,6 +65,16 @@ We will test our code on the below shown dependency graph.
 ```
 #### Output
 
+![image](https://user-images.githubusercontent.com/23214916/50043392-522a2200-0099-11e9-91eb-3ac7d9669f8d.png)
+
+
+### Printing Ancestor Nodes
+
+```java
+		graph.getAncestors(nodeD);
+```
+#### Output
+
 
 
 
