@@ -7,5 +7,5 @@ Execute Test.java, it uses objects of two other classes
 - Node
 - Graph
 
-Objects of Item Class store item details provided by the user. The calcMethod method calculates tax value according to the item type. The printItem method prints the final item details.
+Objects of Node class store node information provided by the user. Object of Graph class store information regarding the dependency graph provided by the user.
 
