@@ -102,4 +102,20 @@ We will test our code on the below shown dependency graph.
 
 #### Output
 
+![image](https://user-images.githubusercontent.com/23214916/50043457-7b977d80-009a-11e9-9a46-7f770baccb32.png)
+
+
+### Deleting Node
+
+```java
+		// Deleting nodeE.
+		graph.deleteNode(nodeE);
+		
+		
+		// Checking if nodeE is deleted.
+		graph.getDescendants(nodeA);
+		graph.print();
+```
+
+#### Output
 
