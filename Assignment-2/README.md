@@ -6,3 +6,10 @@ Writing a menu driven command line java program that provides the following menu
 4.	Save User details.
 5.	Exit
 
+## Codes
+Execute Menu.java, it uses objects of one other class
+
+- Student
+
+Objects of Student class store student information provided by the user. 
+
